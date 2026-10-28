@@ -23,7 +23,6 @@ public class App {
             String name = properties.getProperty("student.name", "неизвестный");
             System.out.println(app.greet(name));
         } catch (Exception e) {
-            // Для учебного проекта достаточно вывести ошибку
             e.printStackTrace();
         }
     }
